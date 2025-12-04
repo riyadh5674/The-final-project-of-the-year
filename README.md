@@ -42,6 +42,7 @@ Here are the resouce that are required prior to jump into the project.
 
 ## December 2025
 Week 01 - Front end : 
+![w1December2025](./Learning-Materials/december2025w1.png)
 - Tanvir - [Prototype 01](https://youtu.be/caHAKw_tE9s?si=jigdPZ9QuvKIhZRr)
 ![Prototype01](./Learning-Materials/Tanvir/Prototypes/Prototype%201.png)
 - Riyadh - [NAV]()
