@@ -18,3 +18,74 @@
      </header>
 
 */
+header {
+    background-color: #333;
+    color: white;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+}
+
+.logo {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+.search-bar {
+    margin-left: 2rem;
+    display: flex;
+    width: 40%;
+}
+.search-bar input {
+    font-size: 1rem;
+    padding: .5rem;
+    border: none;
+    border-radius: .3rem;
+    width: max-content;
+    width: 100%;
+}
+.menu-icon{
+    display: none; /* Now it's invisible but in mobile view it will be visible */
+    flex-direction: column;
+    justify-content: space-around;
+    height: 2rem;
+    width: 2rem;
+    margin: 0rem 2rem;
+    /* border: 1px solid white; */
+}
+
+.menu-icon span {
+    content: '';
+    height: 3px;
+    width: 2rem;
+    background: white;
+    border-radius: .1rem;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 1.5rem;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 1rem;
+    transition: color 0.3s ease;
+}
+
+@media (max-width: 768px) {
+    .search-bar input{
+        max-width: 10rem;
+    }
+    .menu-icon {
+        display: flex;
+    }
+    nav ul {
+        display: none;
+    }
+}
