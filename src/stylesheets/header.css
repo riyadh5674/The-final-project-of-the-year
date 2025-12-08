@@ -137,6 +137,11 @@ nav ul li a {
     animation-duration: .5s;
 
     }
+    nav ul li:hover{
+    
+    background-color: white;
+}
+
     nav ul li a {
     color: #222;
 }
