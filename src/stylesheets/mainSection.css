@@ -8,11 +8,70 @@ main{
 }
 
 .left-column{
-width: 40%;
+width: 5rem;
 height: 100%;
 background-color: whitesmoke;
 padding: 1rem ;
 }
+
+.left-column.active{
+    width: 40%;
+}
+
+.toggle-left-menu{
+    display: flex; /* Now it's invisible but in mobile view it will be visible */
+    flex-direction: column;
+    justify-content: space-around;
+    height: 2rem;
+    width: 2rem;
+    /* margin: 0rem 2rem; */
+    /* border: 1px solid white; */
+}
+
+.toggle-left-menu span {
+    content: '';
+    height: 3px;
+    width: 2rem;
+    background: #333;
+    border-radius: .1rem;
+}
+
+.left-menu-content{
+    display: none;
+    flex-direction: column;
+    margin-top: 1rem;   
+    /* border: 1px solid red; */
+}
+.left-menu-content.active{
+    display: flex;
+}
+
+.left-menu-content ul {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+}
+
+.left-menu-content ul li {
+    transition: all ease .2s;
+    padding: .5rem;
+    border-radius: .4rem;
+}
+.left-menu-content ul li:hover{
+    
+    background-color: white;
+}
+
+.left-menu-content li a {
+    color: #333;
+    text-decoration: none;
+    font-size: 1rem;
+    transition: color 0.3s ease;
+}
+
+
+
 
 .hero{
 width: 100%;

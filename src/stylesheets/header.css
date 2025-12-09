@@ -99,13 +99,6 @@ nav ul li a {
     text-decoration: none;
     font-size: 1rem;
     transition: color 0.3s ease;
-        /* padding: 1rem; */
-}
-
-nav ul li a:hover {
-    background-color: #222;
-
-     /* Tomato color on hover */
 }
 
 @media (max-width: 768px) {
