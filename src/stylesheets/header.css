@@ -47,13 +47,13 @@ nav {
     font-size: 1rem;
     padding: .5rem;
     border: none;
-    border-radius: 1rem 0rem 0rem 1rem;
+    border-radius: .3rem 0rem 0rem .3rem;
     /* width: max-content; */
     width: 100%;
     /* outline: none; */
 }
 .search-bar input[type = 'submit']{
-    border-radius: 0rem 1rem 1rem 0rem;
+    border-radius: 0rem .3rem .3rem 0rem;
     border: none;
     color: white;
     width: 50%;
@@ -114,10 +114,12 @@ nav ul li a {
 
     
     @keyframes myAnimation {
-   0%   { height:0vh;}
+   0%   { height:0vh;
+border-radius: 0% 0% 100% 100%;}
   /*25%  {height: 25vh;}
   50%  {height: 50vh} */
-  100% {height:100vh}
+  100% {
+    height:100vh;}
     }
 
     nav ul.active {
@@ -129,7 +131,7 @@ nav ul li a {
         background-color: #ececec;
         padding: 1rem;
         border-radius: .5rem;
-        height: 100vh;
+        height: calc(100vh - 4.5rem);
         width: 100%;
 
         animation-name: myAnimation;

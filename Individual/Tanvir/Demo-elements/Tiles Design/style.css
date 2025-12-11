@@ -1,46 +1,52 @@
-/* Product tiles styling will be updated soon !  */
-.tile{
- /* background-color: black; */
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    /* border: 1px solid blue; */
 }
 
-.tile ul{
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    line-height: 1.6;
+}
+ul{
     list-style: none;
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
     flex-direction: row;
     gap: 1rem;
     flex-wrap: wrap;
     justify-content: center;
-    padding: 0rem 1rem;
+    padding: 2rem;
 }
 
-.tile ul li{
-    background-color: #f3f3f3;
-    color: #333;
+ul li{
+    background-color: white;
     padding: 1rem;
-    border-radius: 1rem;
+    border-radius: .5rem;
     box-shadow: 0 2px 5px rgba(0,0,0,0.1);
     text-align: center;
     transition: transform 0.3s ease, box-shadow 0.3s ease;
     display: flex;
     flex-direction: row;
 }
-.tile ul li:hover{
+ul li:hover{
     transform: translateY(-5px);
     box-shadow: 0 4px 10px rgba(0,0,0,0.2);
 }
-
-.tile ul li img{
+ul li .left, ul li .right{
+ /* border: 1px solid red; */
+}
+ul li img{
     max-width: 100%;
     border-radius: .5rem;
     margin-bottom: .5rem;
 }
 
-.tile ul li .left{
+ul li .left{
     width: 25rem;
-    background-color: white;
-    margin: .5rem;
-    border-radius: .3rem;
 }
 
 ul li .right{
@@ -48,7 +54,7 @@ ul li .right{
     flex-direction: column;
     text-align: left;
 }
-.tile ul li .left .buy-button{
+.buy-button{
     background-color: #28a745;
     color: white;
     border: none;
