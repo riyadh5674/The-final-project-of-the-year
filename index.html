@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Placeholder</title>
+    <title>Home</title>
     <link rel="stylesheet" href="./src/stylesheets/main.css">
     <script defer type="module" src="./src/js/main.js"></script>
 </head>
@@ -25,9 +25,9 @@
             </div>
             <ul id="nav-links">
                 <li><a href="#">Home</a></li>
-                <li><a href="#">About</a></li>
-                <li><a href="#">Services</a></li>
-                <li><a href="#">Contact</a></li>
+                <li><a href="./src/pages/history.html">History</a></li>
+                <li><a href="./src/pages/account.html">Account</a></li>
+                <li><a href="./src/pages/customer-service.html">Customer Service</a></li>
             </ul>
         </nav>
      </header>
@@ -53,27 +53,129 @@
             <section class="hero">
                 <!-- Product Tiles -->
                 <div class="tile">
-                    <div class="left"><img src="" alt="" srcset=""></div>
-
-                    <!-- or we can use unorder list but for now it's okey to use div  -->
-                    <div class="right">
-                        <h3>Title</h3>
-                        <p>Product Specification will be updated here using PHP </p>
-                        <p>Ratings: <code>4.3</code> | Price : <code>100$</code> </p>
-                        <button onclick="alert('Feature will be added soon\nOn behalf of the Team \nTonoy')">Buy</button>
-                    </div>
-                    <div class="right">
-                        <h3>Title</h3>
-                        <p>Product Specification will be updated here using PHP </p>
-                        <p>Ratings: <code>4.3</code> | Price : <code>100$</code> </p>
-                        <button onclick="alert('Feature will be added soon\nOn behalf of the Team \nTonoy')">Buy</button>
-                    </div>
-                    <div class="right">
-                        <h3>Title</h3>
-                        <p>Product Specification will be updated here using PHP </p>
-                        <p>Ratings: <code>4.3</code> | Price : <code>100$</code> </p>
-                        <button onclick="alert('Feature will be added soon\nOn behalf of the Team \nTonoy')">Buy</button>
-                    </div>
+                    <ul id="prodcut-list">
+                    <li data-product-id="1">
+                        <div class="left">
+                            <img src="./src/img/DecemberWeek2.png" alt="Product-image" srcset="">
+                        </div>
+                        <div class="right">
+                            <h2>Product 01</h2>
+                            <p>Tile description goes here. This is a sample text for the tile description.</p>
+                            <code class="price">$100</code>
+                
+                        </div>
+                    </li>
+                    <li data-product-id="2">
+                        <div class="left">
+                            <img src="./src/img/DecemberWeek2.png" alt="Product-image" srcset="">
+                        </div>
+                        <div class="right">
+                            <h2>Product 02</h2>
+                            <p>Tile description goes here. This is a sample text for the tile description.</p>
+                            <code class="price">$100</code>
+                
+                        </div>
+                    </li>
+                    <li data-product-id="3">
+                        <div class="left">
+                            <img src="./src/img/DecemberWeek2.png" alt="Product-image" srcset="">
+                        </div>
+                        <div class="right">
+                            <h2>Product 03</h2>
+                            <p>Tile description goes here. This is a sample text for the tile description.</p>
+                            <code class="price">$100</code>
+                
+                        </div>
+                    </li>
+                    <li data-product-id="4">
+                        <div class="left">
+                            <img src="./src/img/DecemberWeek2.png" alt="Product-image" srcset="">
+                        </div>
+                        <div class="right">
+                            <h2>Product 04</h2>
+                            <p>Tile description goes here. This is a sample text for the tile description.</p>
+                            <code class="price">$100</code>
+                
+                        </div>
+                    </li>
+                    <li data-product-id="5">
+                        <div class="left">
+                            <img src="./src/img/DecemberWeek2.png" alt="Product-image" srcset="">
+                        </div>
+                        <div class="right">
+                            <h2>Product 05</h2>
+                            <p>Tile description goes here. This is a sample text for the tile description.</p>
+                            <code class="price">$100</code>
+                
+                        </div>
+                    </li>
+                    <li data-product-id="6">
+                        <div class="left">
+                            <img src="./src/img/DecemberWeek2.png" alt="Product-image" srcset="">
+                        </div>
+                        <div class="right">
+                            <h2>Product 06</h2>
+                            <p>Tile description goes here. This is a sample text for the tile description.</p>
+                            <code class="price">$100</code>
+                
+                        </div>
+                    </li>
+                    <li data-product-id="7">
+                        <div class="left">
+                            <img src="./src/img/DecemberWeek2.png" alt="Product-image" srcset="">
+                        </div>
+                        <div class="right">
+                            <h2>Product 07</h2>
+                            <p>Tile description goes here. This is a sample text for the tile description.</p>
+                            <code class="price">$100</code>
+                
+                        </div>
+                    </li>
+                    <li data-product-id="8">
+                        <div class="left">
+                            <img src="./src/img/DecemberWeek2.png" alt="Product-image" srcset="">
+                        </div>
+                        <div class="right">
+                            <h2>Product 08</h2>
+                            <p>Tile description goes here. This is a sample text for the tile description.</p>
+                            <code class="price">$100</code>
+                
+                        </div>
+                    </li>
+                    <li data-product-id="9">
+                        <div class="left">
+                            <img src="./src/img/DecemberWeek2.png" alt="Product-image" srcset="">
+                        </div>
+                        <div class="right">
+                            <h2>Product 09</h2>
+                            <p>Tile description goes here. This is a sample text for the tile description.</p>
+                            <code class="price">$100</code>
+                
+                        </div>
+                    </li>
+                    <li data-product-id="10">
+                        <div class="left">
+                            <img src="./src/img/DecemberWeek2.png" alt="Product-image" srcset="">
+                        </div>
+                        <div class="right">
+                            <h2>Product 10</h2>
+                            <p>Tile description goes here. This is a sample text for the tile description.</p>
+                            <code class="price">$100</code>
+                
+                        </div>
+                    </li>
+                    <li data-product-id="11">
+                        <div class="left">
+                            <img src="./src/img/DecemberWeek2.png" alt="Product-image" srcset="">
+                        </div>
+                        <div class="right">
+                            <h2>Product 11</h2>
+                            <p>Tile description goes here. This is a sample text for the tile description.</p>
+                            <code class="price">$100</code>
+                
+                        </div>
+                    </li>
+                    </ul>
                 </div>
             </section>
             <section class="right-column">
