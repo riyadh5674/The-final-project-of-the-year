@@ -16,7 +16,7 @@
 }
 
 .tile ul li{
-    background-color: #f3f3f3;
+    /* background-color: #f3f3f3; */
     color: #333;
     padding: 1rem;
     border-radius: 1rem;
@@ -39,7 +39,7 @@
 
 .tile ul li .left{
     width: 25rem;
-    background-color: white;
+    /* background-color: white; */
     margin: .5rem;
     border-radius: .3rem;
 }
