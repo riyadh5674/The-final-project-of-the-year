@@ -1,0 +1,14 @@
+.product_info{
+ height :700px;
+ background-color: rgb(211, 14, 14);
+
+}
+.product_info_left{
+    height: 100%;
+    width: 50%;
+    background-color: rgb(190, 169, 169);
+    display :flex;
+    align-items:center ;
+    justify-content: center;
+
+}

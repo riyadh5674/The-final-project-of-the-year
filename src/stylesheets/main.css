@@ -1,12 +1,13 @@
 @import url('./header.css');
 @import url('./mainSection.css');
 @import url('./productTiles.css');
-
+@import url('./productDetails.css');
 *{
     padding: 0;
     margin: 0;
     box-sizing: border-box;
 }
+
 /* started at 9:28 4th of December, 2025 Tanvir R Tonoy */
 
 body{
